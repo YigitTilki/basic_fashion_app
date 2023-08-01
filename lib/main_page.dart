@@ -1,5 +1,5 @@
 import 'package:fashion_app/detail.dart';
-import 'package:fashion_app/list_element.dart';
+import 'package:fashion_app/list.dart';
 import 'package:flutter/material.dart';
 
 class MainPage extends StatefulWidget {
@@ -80,39 +80,27 @@ class _MainPageState extends State<MainPage>
               padding: const EdgeInsets.all(10),
               scrollDirection: Axis.horizontal,
               children: [
-                ListElement(
-                    imagePath: "assets/model1.jpeg",
-                    logoPath: "assets/chanellogo.jpg"),
+                modelList[0],
                 const SizedBox(
                   width: 30,
                 ),
-                ListElement(
-                    imagePath: "assets/model2.jpeg",
-                    logoPath: "assets/louisvuitton.jpg"),
+                modelList[1],
                 const SizedBox(
                   width: 30,
                 ),
-                ListElement(
-                    imagePath: "assets/model3.jpeg",
-                    logoPath: "assets/chloelogo.png"),
+                modelList[2],
                 const SizedBox(
                   width: 30,
                 ),
-                ListElement(
-                    imagePath: "assets/model1.jpeg",
-                    logoPath: "assets/chanellogo.jpg"),
+                modelList[0],
                 const SizedBox(
                   width: 30,
                 ),
-                ListElement(
-                    imagePath: "assets/model2.jpeg",
-                    logoPath: "assets/louisvuitton.jpg"),
+                modelList[1],
                 const SizedBox(
                   width: 30,
                 ),
-                ListElement(
-                    imagePath: "assets/model3.jpeg",
-                    logoPath: "assets/chloelogo.png"),
+                modelList[2],
                 const SizedBox(
                   width: 30,
                 ),
